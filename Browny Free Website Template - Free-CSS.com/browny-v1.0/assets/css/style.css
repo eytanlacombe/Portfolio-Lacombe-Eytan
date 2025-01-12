@@ -25,6 +25,38 @@ font-family: 'Poppins', sans-serif;
 /*-------------------------------------
 		1.General css (Reset code)
 --------------------------------------*/
+/* Configuration pour Flaticon */
+@font-face {
+    font-family: 'Flaticon';
+    src: url('Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/fonts/Flaticon.eot'); /* IE9 Compat Modes */
+    src: url('Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/fonts/Flaticon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/fonts/Flaticon.woff') format('woff'), /* Modern Browsers */
+         url('Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/fonts/Flaticon.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/fonts/Flaticon.svg#Flaticon') format('svg'); /* Legacy iOS */
+}
+
+/* Configuration pour FontAwesome */
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/fonts/fontawesome-webfont.eot');
+    src: url('Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/fonts/fontawesome-webfont.woff2') format('woff2'),
+         url('Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/fonts/fontawesome-webfont.woff') format('woff'),
+         url('Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/fonts/fontawesome-webfont.ttf') format('truetype'),
+         url('Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/fonts/fontawesome-webfont.svg#FontAwesome') format('svg');
+}
+
+/* Configuration pour Linearicons */
+@font-face {
+    font-family: 'Linearicons';
+    src: url('Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/fonts/Linearicons-Free.eot');
+    src: url('Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/fonts/Linearicons-Free.eot?#iefix') format('embedded-opentype'),
+         url('Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/fonts/Linearicons-Free.woff2') format('woff2'),
+         url('Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/fonts/Linearicons-Free.woff') format('woff'),
+         url('Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/fonts/Linearicons-Free.ttf') format('truetype'),
+         url('Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/fonts/Linearicons-Free.svg#Linearicons') format('svg');
+}
+
 *{
     padding: 0;
     margin: 0;
