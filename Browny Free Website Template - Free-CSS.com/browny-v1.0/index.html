@@ -1,16 +1,18 @@
 <!doctype html>
-<html class="no-js" lang="fr">
+<html lang="fr">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Eytan Lacombe</title>
     <!-- Lien vers les fichiers CSS -->
     <link rel="stylesheet" href="Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-<header class="top-area">
-    <div class="header-area">
+<header>
+    <div class="container">
+        <h1>Eytan Lacombe</h1>
+        <p>Étudiant en BUT Informatique | Ambition : Travailler dans l'IA</p>
         <nav class="navbar">
             <a href="#about">À propos</a>
             <a href="#education">Formation</a>
@@ -21,54 +23,98 @@
     </div>
 </header>
 
-<section id="welcome-hero" class="welcome-hero">
-    <div class="container text-center">
-        <h2>Bonjour <span>,</span> Je suis<br> Eytan <br> Lacombe <span>.</span></h2>
-        <p>Étudiant en BUT Informatique - Montpellier-Sète</p>
+<section id="hero">
+    <div class="hero-content">
+        <h2>Bonjour,</h2>
+        <h3>Je suis <span>Eytan Lacombe</span>.</h3>
+        <p>Étudiant en BUT Informatique à Montpellier-Sète, passionné par les nouvelles technologies.</p>
+        <a href="#contact" class="btn">Me contacter</a>
     </div>
 </section>
 
-<section id="about" class="about">
+<section id="about">
     <div class="container">
         <h2>À propos de moi</h2>
-        <p>Je suis actuellement en deuxième année de BUT Informatique à Montpellier-Sète. Passionné par les technologies, le sport et les jeux vidéo, j’aspire à travailler dans le domaine de l’intelligence artificielle. Grâce à mon cursus, j'ai acquis des compétences en programmation, gestion de projets et travail en équipe.</p>
-    </div>
-</section>
-
-<section id="education" class="education">
-    <div class="container">
-        <h2>Formation</h2>
-        <p><strong>2023 - 2026 :</strong> BUT Informatique, IUT Montpellier-Sète</p>
-    </div>
-</section>
-
-<section id="projects" class="projects">
-    <div class="container">
-        <h2>Projets réalisés</h2>
-        <p><strong>SAE Train :</strong> Création d'une application de gestion ferroviaire en Java et JavaFX.</p>
-    </div>
-</section>
-
-<section id="skills" class="skills">
-    <div class="container">
-        <h2>Compétences</h2>
+        <p>Je suis en deuxième année de BUT Informatique à Montpellier-Sète. Passionné par les technologies, le sport et les jeux vidéo, je souhaite travailler dans l’intelligence artificielle. Mon cursus m’a permis d’acquérir des compétences solides en programmation, gestion de projets, et développement collaboratif.</p>
         <ul>
-            <li>Programmation : Java, Python, HTML/CSS</li>
+            <li><strong>Langues :</strong> Français (natif), Anglais (intermédiaire), Espagnol (notions)</li>
+            <li><strong>Centres d'intérêt :</strong> Sport, jeux vidéo, innovation technologique</li>
         </ul>
     </div>
 </section>
 
-<section id="contact" class="contact">
+<section id="education">
+    <div class="container">
+        <h2>Formation</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>2023 - 2026</h3>
+                <h4>BUT Informatique</h4>
+                <p><strong>Université :</strong> IUT Montpellier-Sète</p>
+                <p><strong>Compétences acquises :</strong></p>
+                <ul>
+                    <li>Programmation : Java, Python, PHP, SQL</li>
+                    <li>Création de sites web (HTML/CSS)</li>
+                    <li>Gestion de bases de données relationnelles</li>
+                    <li>Développement d’interfaces graphiques avec JavaFX</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="container">
+        <h2>Projets réalisés</h2>
+        <div class="project">
+            <h3>SAE Train</h3>
+            <p><strong>Technologies :</strong> Java, JavaFX</p>
+            <p>Création d'une application de gestion ferroviaire. Compétences acquises : programmation orientée objet, gestion de données complexes, interfaces graphiques.</p>
+        </div>
+        <div class="project">
+            <h3>SAE S3 Parcours A</h3>
+            <p><strong>Technologies :</strong> PHP, HTML/CSS, SQL</p>
+            <p>Projet pluridisciplinaire combinant développement web et gestion de bases de données. Compétences acquises : travail en équipe, développement front-end et back-end.</p>
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="container">
+        <h2>Compétences</h2>
+        <div class="skills-list">
+            <div class="skill">
+                <h3>Langages</h3>
+                <p>Java, Python, PHP, SQL, HTML/CSS</p>
+            </div>
+            <div class="skill">
+                <h3>Outils</h3>
+                <p>Git/GitHub, Visual Studio Code, IntelliJ IDEA</p>
+            </div>
+            <div class="skill">
+                <h3>Méthodologies</h3>
+                <p>Méthodes agiles, gestion de projets collaboratifs</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
     <div class="container">
         <h2>Contact</h2>
         <ul>
-            <li>Email : eytanlacombe29@yahoo.com</li>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:eytanlacombe29@yahoo.com">eytanlacombe29@yahoo.com</a></li>
+            <li><i class="fas fa-phone"></i> 07 68 34 25 36</li>
+            <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/eytan-lacombe-8652aa2aa" target="_blank">linkedin.com/in/eytan-lacombe</a></li>
         </ul>
     </div>
 </section>
 
+<footer>
+    <p>&copy; 2025 - Eytan Lacombe. Tous droits réservés.</p>
+</footer>
+
 <!-- Lien vers les fichiers JS -->
-<script src="Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/js/jquery.js"></script>
 <script src="Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/js/custom.js"></script>
 </body>
 </html>
