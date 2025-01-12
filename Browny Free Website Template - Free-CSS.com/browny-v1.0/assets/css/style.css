@@ -1,9 +1,11 @@
+/* Style global */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background: #f4f4f9;
     color: #333;
+    line-height: 1.6;
 }
 
 /* Header */
@@ -19,16 +21,23 @@ header h1 {
     margin: 0;
 }
 
+header p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
 .navbar {
     margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .navbar a {
     text-decoration: none;
     color: #fff;
-    margin: 0 10px;
     font-size: 1.2em;
-    transition: color 0.3s;
+    transition: color 0.3s ease;
 }
 
 .navbar a:hover {
@@ -39,13 +48,150 @@ header h1 {
 #hero {
     background: url('Browny Free Website Template - Free-CSS.com/browny-v1.0/assets/images/hero-bg.jpg') no-repeat center center/cover;
     color: #fff;
-    padding: 80px 20px;
+    padding: 100px 20px;
     text-align: center;
 }
 
 #hero h2 {
     font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero h3 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#hero .btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background: #0078ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#hero .btn:hover {
+    background: #005fcc;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #444;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* About section */
+#about ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about ul li {
+    margin: 10px 0;
+}
+
+/* Timeline in Education */
+.timeline {
+    border-left: 3px solid #0078ff;
+    padding-left: 20px;
+    position: relative;
+}
+
+.timeline .timeline-item {
+    margin-bottom: 20px;
+}
+
+.timeline .timeline-item h3 {
+    color: #0078ff;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.timeline .timeline-item h4 {
+    font-size: 1.3em;
+    margin: 5px 0;
+}
+
+.timeline .timeline-item ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Projects section */
+.project {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    font-size: 1.8em;
+    color: #0078ff;
+}
+
+.project p {
+    margin: 10px 0;
+}
+
+/* Skills section */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.skill {
+    flex: 1 1 calc(33% - 20px);
+    background: #f4f4f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill h3 {
+    color: #0078ff;
     margin-bottom: 10px;
+}
+
+/* Contact section */
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+#contact ul li i {
+    color: #0078ff;
+    margin-right: 10px;
+    font-size: 1.5em;
 }
 
 /* Footer */
@@ -55,4 +201,5 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+    font-size: 1em;
 }
